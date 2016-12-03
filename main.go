@@ -38,7 +38,6 @@ func algo() {
 	currentY := initY
 	board[currentX][currentY] = true
 
-_:
 	for {
 
 		seed := int64(time.Now().UnixNano()) + rand.Int63()
