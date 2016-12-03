@@ -27,7 +27,8 @@ func algo() {
 	start := time.Now()
 	board := [s][s]bool{}
 
-	// Selbst hier brauchen wir schon einen neuen Seed. -- bestimmt falsch
+	// Alles was hier mit den seeds gemacht wird ist unklar
+	// Muss überarbeitet werden damit die Wiedergabe/Playback der Züge funktioniert
 	seed := int64(time.Now().UnixNano())
 	rnd := rand.New(rand.NewSource(seed))
 
